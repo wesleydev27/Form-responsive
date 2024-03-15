@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto formulario</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <p class="title">Faça o seu cadastro</p>
+    </div>
+    <div class="container">
+      <form>
+        <label for="name">Nome</label>
+        <input
+          type="text"
+          placeholder="Nome"
+          maxlength="30"
+          required
+          autocomplete="off"
+          autofocus
+        />
+
+        <label for="last-name">Sobrenome</label>
+        <input
+          type="text"
+          placeholder="Sobrenome"
+          maxlength="30"
+          required
+          autocomplete="off"
+        />
+
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          placeholder="E-mail"
+          maxlength="40"
+          required
+          autocomplete="off"
+        />
+
+        <label for="password">Senha</label>
+        <input
+          type="password"
+          placeholder="Senha"
+          required
+          maxlength="16"
+          autocomplete="off"
+        />
+
+        <label for="repeat-password">Repetir senha</label>
+        <input
+          type="password"
+          placeholder="Repita sua senha"
+          required
+          maxlength="16"
+          autocomplete="off"
+        />
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+    <footer>
+      <p class="title-footer">Sistema de cadastro</p>
+    </footer>
+  </body>
+</html>
